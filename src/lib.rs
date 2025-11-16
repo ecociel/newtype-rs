@@ -31,19 +31,19 @@ macro_rules! simple_string_newtype {
 
         impl std::convert::TryFrom<String> for $n {
             type Error = ParseError;
-            fn try_from(value: String) -> Result<Self, Self::Error> {
+            fn try_from(value: String) -> Result<Self, ParseError> {
                 value.parse()
             }
         }
         impl std::convert::TryFrom<&String> for $n {
             type Error = ParseError;
-            fn try_from(value: &String) -> Result<Self, Self::Error> {
+            fn try_from(value: &String) -> Result<Self, ParseError> {
                 value.parse()
             }
         }
         impl std::convert::TryFrom<&str> for $n {
             type Error = ParseError;
-            fn try_from(value: &str) -> Result<Self, Self::Error> {
+            fn try_from(value: &str) -> Result<Self, ParseError> {
                 value.parse()
             }
         }
