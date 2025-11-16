@@ -1,6 +1,6 @@
 [package]
 name = "simple-newtype"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple newtype macros for application development."
 edition = "2021"
 license-file = "LICENSE"
