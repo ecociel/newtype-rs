@@ -1,5 +1,9 @@
 # simple-newtype
 
+[![crates.io](https://img.shields.io/crates/v/simple-newtype.svg)](https://crates.io/crates/simple-newtype)
+[![Released API docs](https://docs.rs/hyper/badge.svg)](https://docs.rs/simple-newtype)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 A very simple newtype macro for Rust applications
 
 # Usage
