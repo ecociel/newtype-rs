@@ -1,0 +1,24 @@
+[package]
+name = "simple-newtype"
+version = "0.1.0"
+description = "Simple newtype macros for application development."
+edition = "2021"
+license-file = "LICENSE"
+rust-version = "1.85"
+readme = "README.md"
+#homepage = ""
+#documentation = "https://docs.rs/"
+repository = "https://github.com/ecociel/newtype-rs"
+authors = ["Jan Algermissen <jan.algermissen@ecociel.ch>"]
+keywords = ["newtype"]
+categories = []
+
+
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
+uuid = { version = "1.7.0", features = ["v4"] }
+
+
